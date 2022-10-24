@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Do Enfermeiro</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <header class="fixed-top">
+        <nav class="nav-header">
+
+            <div class="name-project">
+                <h3>S.O.P.S.</h3>
+            </div>
+
+            <div class="filters">
+                <ul class="itens-header">
+                    <li class="nav-item"><a class="nav-link" href="#">Item</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Item</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Item</a></li>
+                </ul>
+            </div>
+
+            <div class="botao">
+                <button class="btn"><a href="#">Botão</a></button>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+
+       <div class="all">
+
+            <section class="all-main-informations">
+
+                <h3>Informações Vitais:</h3> <br>
+
+                <form class="vital-signs">
+
+                <h4><label id="fc">Frequencia Cardiaca:</label><input type="text" class="Bpm" placeholder="Bpm"></h4>
+                <h4><label id="temp">Temperatura:</label><input type="text" class="temp" placeholder="°C"></h4>
+                <h4>Frequencia Respiratoria:<input type="text" class="rpm" placeholder="rpm"></h4>
+                <h4>Pressão Arterial:<input type="text" class="P-arterial" placeholder="mmHg"></h4>
+                <h4><label id="oxi">Oxigenação No sangue:</label><input type="text" class="SpO2" placeholder="SpO2"></h4>
+
+                </form> <br>
+
+                <form class="classificações-de-casos">
+
+                    <fieldset class="informações-pessoais">
+
+                     <legend class="personal-informations"><h4>Dados Do Paciente:</h4></legend><br>
+
+                        <label for="nome">Nome Completo:</label> 
+                        <input id="nome" type="text" name="nome" class="nome"> 
+
+                        <label for="years">Idade:</label>
+                        <input id="years" type="text" name="years" class="years">
+
+                        <label for="birtday-date">Data De Nascimento:</label>
+                        <input id="birtday-date" type="date" name="birtday-date" class="birtday-date"> 
+
+                        <h4>Sexo:</h4>
+
+                        <input id="masculino" type="radio" name="masculino" class="masculino">
+                        <label for="masculino">Masculino</label>
+
+                        <input id="Feminino" type="radio" name="Feminino" class="Feminino">
+                        <label for="Feminino">Feminino</label>
+
+                        <input id="Prefiro Não dizer" type="radio" name="Prefiro Não dizer" class="Prefiro Não dizer">
+                        <label for="Prefiro Não dizer">Prefiro Não dizer</label>
+
+                        <input id="Outro" type="radio" name="Outro" class="Outro">
+                        <label for="Outro">Outro</label> <br>
+
+
+                    </fieldset> <br>
+
+                    <fieldset class="antecedentes">
+
+                        <legend class="antecedentes-pessoais"><h4>Antecedentes Pessoais:</h4></legend> <br>
+                    
+                        <input id="HAS" type="radio" name="HAS" class="HAS" >
+                        <label for="HAS">HAS</label>
+
+                        <input id="cardiopata" type="radio" name="cardiopata" class="cardiopata">
+                        <label for="cardiopata">Cardiopata</label>
+
+                        <input id="iam-anterior" type="radio" name="iam-anterior" class="iam-anterior">
+                        <label for="iam-anterior">IAM anterior</label>
+
+                        <input id="ave-anterior" type="radio" name="ave-anterior" class="ave-anterior">
+                        <label for="ave-anterior">AVE anterior</label>
+
+                        <input id="convunções" type="radio" name="convunções" class="convunções">
+                        <label for="convunções">Convunções</label>
+
+                        <input id="cirurgico" type="radio" name="cirurgico" class="cirurgico">
+                        <label for="cirurgico">Cirurgico</label>
+
+                        <input id="respiratorios" type="radio" name="respiratorios" class="respiratorios">
+                        <label for="respiratorios">Asma/Bronquite/DPOC</label>
+
+                        <input id="n-informa" type="radio" name="n-informa" class="n-informa">
+                         <label for="n-informa">Não Informa</label>
+
+                        <input id="n-tratamento" type="radio" name="n-tratamento" class="n-tratamento">
+                        <label for="n-tratamento">Nega Tratamento</label>
+
+                        <input id="outros" type="radio" name="outros" id="outros">
+                        <label for="outros">Outros</label> <input type="text" class="quais-outros">
+
+                    </fieldset> <br>
+
+                    <fieldset class="seleção-de-nivel-de-risco">
+
+                        <legend class="title-risc"> <h4>Classificação De Risco(Protocolo Manchester):</h4> </legend> <br>
+
+                        <input id="checkbox1" type="checkbox" name="Vermelho" class="Vermelho">
+                        <label for="checkbox1">Vermelho</label>
+
+                        <input id="checkbox2" type="checkbox" name="Laranja" class="Laranja">
+                        <label for="checkbox2">Laranja</label>
+
+                        <input id="checkbox3" type="checkbox" name="Amarelo" class="Amarelo" >
+                        <label for="checkbox3">Amarelo</label>
+
+                        <input id="checkbox4" type="checkbox" name="Verde" class="Verde" >
+                        <label for="checkbox4">Verde</label>
+
+                        <input id="checkbox5" type="checkbox" name="Azul" class="Azul" >
+                        <label for="checkbox5">Azul</label>
+                    
+                    </fieldset> <br>
+
+                    <fieldset class="uso-de-medicamentos"> 
+
+                        <legend class="medicamentos"><h4>Medicamentos em uso:</h4></legend> <br>
+
+                        <input id="medicamentos" type="checkbox" name="medicamentos" class="medicamentos">
+                        <label for="checkbox4">Nega o uso de medicamentos</label>
+
+                        <input id="não-informa" type="checkbox" name="não-informa" class="não-informa">
+                        <label for="não-informa">Não informa</label> <br>
+
+                        <input id="usa-medicamentos" type="checkbox" name="usa-medicamentos" class="usa-medicamentos">
+                        <label for="usa-medicamentos">Sim. Quais ?</label> <input type="text" class="nome-dos-medicamentos">
+
+
+                    </fieldset> <br>
+
+                    <fieldset class="porta-alergias">
+
+                        <legend class="alergias"> <h4>Alergias:</h4> </legend> <br>
+
+                        <input id="não-tem-alergia" type="checkbox" name="não-tem-alergia" class="não-tem-alergia">
+                        <label for="não-tem-alergia">Nega ter alergias</label>
+
+                        <input id="não-informa-alergia" type="checkbox" name="não-informa-alergia" class="não-informa-alergia">
+                        <label for="não-informa-alergia">Não informa</label> <br>
+
+                        <input id="possui-alergia" type="checkbox" name="possui-alergia" class="possui-alergia">
+                        <label for="possui-alergia">Sim. Quais ?</label> <input type="text" class="tipo-de-alergia">
+
+
+                    </fieldset> <br>
+
+                    <div>
+                        <label id="respostaUbi">Enviar Para A Central</label>
+                        <button onclick="GetUbi()">ENVIAR</button>
+                        <button onclick="LeFC()">LER FC</button>
+                        <button onclick="LeSpO2()">LER SpO2</button>
+                        <button onclick="Letemp()">LER temp</button>
+                    </div>
+
+                </form>
+
+            </section>
+
+       </div>
+
+    </main>
+
+    <footer>
+
+    </footer>
+    
+</body>
+</html>

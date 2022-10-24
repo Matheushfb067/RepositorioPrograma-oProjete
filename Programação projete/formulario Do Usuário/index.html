@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Do Usuario</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://kit.fontawesome.com/efaf5d8f6d.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <header class="cabeçalho">
+
+        <!--<nav class="nav-bar">-->
+
+            <div class="logo">
+
+                <h3 class="title-page">S.O.P.S.</h3><br>
+            </div> <br>
+    
+            <div class="search-box">
+                <input type="text" class="search-text" placeholder="Pesquisar">
+    
+                <a href="#" class="search-button">
+                    <img src="img`s/imagem_lupa.svg" alt="lupa" height="20" width="20">
+                </a>
+    
+            </div>
+    
+            <div class="subtitle"> 
+                <h3 class="end-title">Sistema De Orientação À primeiros socorros</h3>
+            </div>
+
+        <!--</nav>-->
+
+    </header>
+
+    <!--<main class="sidebar-and-filters">-->
+
+        <section class="sidebar">
+
+            <header class="logo">Índice</header>
+
+            <nav class="nav-bar">
+                <ul class="list-buttons">
+                    <li class="nav-list-items"><a id="btnTrauma" onclick="trauma()" class="nav-buttons">Traumas Ortopédicos</a></li>
+                    <li class="nav-list-items"><a id="submit" onclick="submitAction()" href="#" class="nav-buttons">Problemas Cardíacos</a></li>
+                    <li class="nav-list-items"><a id="submit" onclick="submitAction()" href="#" class="nav-buttons">Glicemia</a></li>
+                    <li class="nav-list-items"><a id="submit" onclick="submitAction()" href="#" class="nav-buttons">Incisões e Hemorragias</a></li>
+                    <li class="nav-list-items"><a id="submit" onclick="submitAction()" href="#" class="nav-buttons">Afogamentos</a></li>
+                    <li class="nav-list-items"><a id="submit" onclick="submitAction()" href="#" class="nav-buttons">Engasgamentos</a></li>
+                    <li class="nav-list-items"><a id="submit" onclick="submitAction()" href="#" class="nav-buttons">Infarto</a></li>
+                    <li class="nav-list-items"><a id="submit" onclick="submitAction()" href="#" class="nav-buttons">Intoxicações</a></li>
+                    <li class="nav-list-items"><a id="submit" onclick="submitAction()" href="#" class="nav-buttons">Queimaduras</a>
+                    <li class="nav-list-items"><a id="submit" onclick="submitAction()" href="#" class="nav-buttons">Crises Respiratórias</a></li>
+                    <li class="nav-list-items"><a id="submit" onclick="submitAction()" href="#" class="nav-buttons">Picadas e Mordidas</a></li>
+                    <li class="nav-list-items"><a id="submit" onclick="submitAction()" href="#" class="nav-buttons">Convulsão</a></li>
+                    <li class="nav-list-items"><a id="submit" onclick="submitAction()" href="#" class="nav-buttons">Pressão</a></li>
+                    <li class="nav-list-items"><a id="submit" onclick="submitAction()" href="#" class="nav-buttons">Choque Elétrico</a></li>
+
+                </ul>
+            </nav>
+
+        </section>
+
+        <main class="sidebar-and-filters">
+
+        <section class="informative">
+
+            <div class="all" id="all">
+                <h1>Todas Informações:</h1>
+            </div>
+
+            <div class="afogamentos" id="afogamentos">
+                <h1>Afogamentos:</h1> <br>
+
+                <div>
+                    <video src="videos-SOPS_pjt/Afogamento _ Primeiros socorros(1080P_HD)_1.mp4" controls width="400px" class="afog"></video>
+                </div> <br>
+
+                <ol> 
+                <li><p>1-Deite a pessoa em uma superfície firme, com a barriga para cima;</p></li> <br>
+                <li><p>2-Posicione as mãos sobre o peito da vítima, entrelaçando os dedos e mantendo os braços esticados, como mostra a figura abaixo;</p></li> <br> 
+                <li><p>3-Empurre as mãos com força contra o peito, entre os mamilos, utilizando o peso do próprio corpo, e fazendo 2 compressões por segundo até que a vítima se recupere ou até a chegada do socorro. 
+                    É Importante deixar que o tórax da pessoa volte à posição normal entre cada empurrão.</p></li> <br>
+                </ol> <br>
+
+            </div>
+
+            <div class="cortes-e-hemorragia" id="cortes-e-hemorragia">
+
+                <h1>Cortes e Hemorragia:</h1> <br>
+
+                <div>
+                    <video src="videos-SOPS_pjt/Hemorragia _ Primeiros socorros(1080P_HD).mp4" controls width="400px" class="incisoes"></video>
+                </div> <br>
+
+                <h3>Cortes Superficiais:</h3> <br>
+                <ol>
+                    <li><p>1-A primeira coisa a ser feita é ter certeza de que a ferida não é grave. Em seguida lave as mãos com água e sabão;</p></li> <br>
+                    <li><p>2-Lave a ferida com muito cuidado com água e sabão. Certifique-se de que o local ficou bem limpo e livre de partículas que poderiam causar infecção;</p></li> <br>
+                    <li><p>3-Aplique um anti-séptico e seque o local em volta da ferida;</p></li> <br>
+                    <li><p>4-De acordo com a lesão, coloque uma gaze ou pano limpo para cobrir o ferimento. Não use algodão, pois as fibras do material podem colar na ferida, provocando novamente um sangramento ao retirar o curativo;</p></li> <br>
+                    <li><p>5-Mantenha o corte limpo e seco para facilitar a cicatrização</p></li> <br>
+                </ol> <br>
+                <h3>Cortes Profundos:</h3> <br>
+                <ol>
+                    <li><p>1-Mantenha a calma e controlar a hemorragia imediatamente;</p></li> <br>
+                    <li><p>2-Pressione uma gaze ou pano limpo sobre o corte. Se ele não for tão profundo, o sangramento deve parar em alguns minutos. Em seguida lave a ferida com água e sabão;</p></li><br>
+                    <li><p>3-Caso a água não seja suficiente para remover os resíduos do corte, use uma gaze para retirar as partículas que ficaram coladas dentro do machucado;</p></li><br>
+                    <li><p>4-Se houver um pedaço de cristal ou outro objeto cravado no corte não tente retirá-lo, pois pode provocar uma hemorragia maior</p></li><br>
+                    <li><p>5-Em casos de sangramento intenso, eleve o membro para reduzir o fluxo de sangue;</p></li><br>
+                    <li><p>6-Após conter o sangramento com a compressa de gaze, consulte um médico imediatamente para avaliar o corte e realizar uma sutura;</p></li><br>
+                    <li><p>7-Após a sutura, os curativos são necessários para que a cicatrização seja eficaz.</p></li><br>
+                </ol> <br>
+
+            </div>
+
+            <div class="engasgamento" id="engasgamento">
+
+                <h1>Engasgamento:</h1><br>
+                <h3>Adultos:</h3><br>
+
+                <div>
+                    <video src="videos-SOPS_pjt/Adulto engasgado _ Primeiros socorros(1080P_HD).mp4" controls width="400px" class="adult"></video>
+                </div> <br>
+
+                <ol>
+                    <li><p>1-Fique de pé atrás da vítima, que também deve estar de pé;</p></li><br>
+                    <li><p>2-Passe os braços em volta do tronco da pessoa;</p></li><br>
+                    <li><p>3-Cerre o punho da mão que tem mais força e coloque-a, com o nó do polegar, sobre a boca do estômago da vítima, ou seja, entre as costelas;</p></li><br>
+                    <li><p>4-Coloque a outra mão sobre o punho cerrado;</p></li><br>
+                    <li><p>5-Faça pressão com as mãos contra o estômago da pessoa, para dentro e para cima.</p></li><br>
+                </ol>
+                <h3>Crianças:</h3> <br>
+
+                <div>
+                    <video src="videos-SOPS_pjt/Bebê engasgado _ Primeiros socorros(1080P_HD).mp4" controls width="400px" class="kids"></video>
+                </div> <br>
+
+                <ol>
+                    <li><p>1-Analise se o bebê está cianótico, sem respirar ou com muita dificuldade respiratória. Geralmente a boca fica roxa.</p></li><br>
+                    <li><p>2-Coloque o bebê sobre a perna, com o apoio de uma das mãos e vire a cabeça dele para baixo. Segure a boca até ficar meio aberta e faça cinco compressões firmes contra o dorso;</p></li><br>
+                    <li><p>3-Dê batidas leves e vigorosas nas costas para que consiga empurrar o corpo estranho. Não tenha medo de machucar a criança, pois a mão de baixo está protegendo a parte frontal;</p></li><br>
+                    <li><p>4-Usando um dedo, abra a boca da criança. Proteja o tórax e vire-a de volta para observar se continua com dificuldades para respirar;</p></li><br>
+                    <li><p>5-Se a dificuldade persistir, faça cinco compressões torácicas. Coloque dois dedos na linha entre os mamilos e empurre contra o tórax da criança por cinco vezes durante cinco segundos;</p></li><br>
+                    <li><p>6-Se ela ainda não está consegue respirar e a boca continua roxa, vire-a novamente para baixo, abra a boca e faça novamente a manobra;</p></li><br>
+                </ol> <br>
+
+            </div>
+
+            <div class="infarto" id="infarto">
+                <h1>Infarto:</h1> <br>
+                <ol>
+                    <li><p>1-Posicione o corpo com as costas no chão. Se ajoelhe ao lado e fique bem perto do tronco da pessoa;</p></li><br>
+                    <li><p>2-Empurre as mãos com força contra o peito, entre os mamilos, utilizando o peso do próprio corpo. Faça 2 compressões por segundo até que a vítima se recupere ou até a chegada do socorro. É importante deixar que o tórax da pessoa volte à posição normal entre cada empurrão.</p></li><br>
+                    <li><p>3-Mantenha a massagem cardíaca até a chegada da ambulância.</p></li><br>
+                </ol> <br>
+            </div>
+
+            <div class="intoxicações-e-alergias" id="intoxicações-e-alergias">
+
+                <h1>Intoxicações e Alergias:</h1> <br>
+                <h3>Intoxões Químicas:</h3> <br>
+                <ol>
+                    <li><p>1-Identifique qual substância o paciente teve contato;</p></li><br>
+                    <li><p>2-Colete o rótulo ou bula do produto. Leve para a central para facilitar o atendimento e evite informações incorretas;</p></li><br>
+                    <li><p>3-Verifique por qual via se deu a exposição (boca, pele etc.), a quantidade estimada que provocou o acidente, a frequência de uso e o nível de consciência da vítima;</p></li><br>
+                    <li><p>4-Identifique há quanto tempo ocorreu a exposição;</p></li><br>
+                    <li><p>5-Observe os sinais e sintomas apresentados pela vitima.</p></li><br>
+                </ol>
+                <h3>Intoxicação Alimentar:</h3> <br>
+
+                <div>
+                    <video src="videos-SOPS_pjt/Intoxicação alimentar _ Primeiros socorros(1080P_HD).mp4" class="intoxicaçao" controls width="400px"></video>
+                </div> <br>
+
+                <ol>
+                    <li><p>1-Deixe a vitima vomitar e evacuar quantas vezes forem necessárias;</p></li><br>
+                    <li><p>2-Após 20 minutos depois do vômito, faça a vítima beber água de coco ou alguma bebida isotônica, para evitar a desidratação;</p></li><br>
+                    <li><p>3-Se os sintomas não diminuírem em 24 horas, busque ajuda médica. Normalmente a intoxicação alimentar é curada em três dias e sem o auxílio de remédios;</p></li><br>
+                    <li><p>4-Em caso da intoxicação alimentar envolver mais pessoas, avise as que tiveram contato com o alimento, facilitando assim o tratamento para as pessoas envolvidas.</p></li><br>
+                </ol>
+
+                <h1>Alergias:</h1> <br>
+                <ol>
+                    <li><p>1-Observe se a pessoa está consciente e respirand;.</p></li><br>
+                    <li><p>2-Se estiver respirando, deve deitá-la e levantar suas pernas para facilitar a circulação sanguínea;</p></li><br>
+                    <li><p>3-Se a pessoa desmaiar e deixar de respirar, inicie a massagem cardíaca. Empurre as mãos com força contra o peito, entre os mamilos, e utilize o peso do próprio corpo. Faça 2 compressões por segundo até que a vítima se recupere ou até a chegada do socorro. É importante deixar que o tórax da pessoa volte à posição normal entre cada empurrão.</p></li><br>
+                </ol> 
+
+            </div>
+
+
+            <div class="queimaduras" id="queimaduras">
+
+                <h1>Queimaduras:</h1> <br>
+                <h3>Queimaduras Leves</h3> <br>
+                <ol>
+                    <li><p>1-Coloque a região queimada debaixo de água fria por pelo menos 15 minutos;</p></li><br>
+                    <li><p>2-Mantenha um pano limpo e umedecido em água fria na região durante as primeiras 24 horas, trocando sempre que a água aquecer;</p></li><br>
+                    <li><p>3-Não aplique qualquer produto, como óleo ou manteiga, na queimadura;</p></li><br>
+                    <li><p>4-Passe uma pomada hidratante ou cicatrizante para queimaduras, como Nebacetin ou Unguento.</p></li><br>
+            </ol>
+                <h3>Queimaduas Graves</h3>
+                <ol>
+                    <li><p>1-Coloque cuidadosamente uma gaze esterilizada ou um pano limpo sobre a região afetada, até a chegada da ajuda médica;</p></li><br>
+                    <li><p>2-Não coloque nenhum tipo de produto na região afetada.</p></li><br>
+                </ol><br>
+                <h3>Queimaduras De Água-Viva:</h3>
+
+                <div>
+                    <video src="videos-SOPS_pjt/Queimadura de Água-Viva _ Primeiros socorros(1080P_HD).mp4" class="burning" controls width="400px"></video>
+                </div> <br>
+
+                <ol>
+                    <li><p>1-Saia da água imediatamente;</p></li><br>
+                    <li><p>2-Lave o ferimento, sem esfregar, com água salgada;</p></li><br>
+                    <li><p>3-Remova, com cuidado, os tentáculos que podem ter aderido à pele;</p></li><br>
+                    <li><p>4-Faça compressas de vinagre por cerca de 30 segundos para aliviar a dor causada pelas toxinas;</p></li><br>
+                    <li><p>5-Aplique filtro solar na área, visto que ela estará mais sensível.</p></li><br>
+                </ol> <br>  
+
+            </div>
+
+            <div class="respiratorias" id="respiratorias">
+                <h1>Respiratórias:</h1><br>
+                <h3>Crise De Asma:</h3> <br>
+
+                <div>
+                    <video src="videos-SOPS_pjt/Crise de asma _ Primeiros socorros(1080P_HD).mp4" controls width="400px" class="asma"></video>
+                </div> <br>
+
+                <ol>
+                    <li><p>1-Acalme a pessoa;</p></li><br>
+                    <li><p>2-Ajude-a a se sentar numa posição confortável;</p></li><br>
+                    <li><p>3-Incline a pessoa ligeiramente para a frente, colocando os cotovelos repousados nas costas de uma cadeira, se possível, para facilitar a respiração;</p></li><br>
+                    <li><p>4-Pergunte se a pessoa possui algum remédio para asma, ou bombinha, e aplique o medicamento.</p></li><br>
+                </ol> <br>
+
+            </div>
+
+
+            <div class="traumas-ortopedicos" id="traumas-ortopedicos">
+
+                <h1>Traumas Ortopedicos:</h1> <br>
+                <h3>Coluna Vertebral:</h3> <br>
+                <ol>
+                    <li><p>1-Evite movimentar a região lesionada;</p></li><br>
+                    <li><p>2-Aplique compressas frias ou um saco de gelo no local;</p></li><br>
+                    <li><p>3-Caso seja necessário, imobilize a região.</p></li><br>
+                </ol> <br>
+                <h3>Crânio:</h3> <br>
+                <ol>
+                    <li><p>1-Observe se a pessoa está consciente;</p></li><br>
+                    <li><p>2-Caso esteja, tente acalmá-la até à chegada da ajuda médica;</p></li><br>
+                    <li><p>3-Caso o indivíduo esteja inconsciente e não respire, inicie a massagem cardíaca. Empurre as mãos com força contra o peito, entre os mamilos, utilizando o peso do próprio corpo. Faça 2 compressões por segundo até que a vítima se recupere ou até a chegada do socorro. É importante deixar que o tórax da pessoa volte à posição normal entre cada empurrão.</p></li><br>
+                    <li><p>4-Mantenha a vítima imobilizada, evitando mexer no pescoço, pois podem existir danos na coluna;</p></li><br>
+                    <li><p>5-Pare hemorragias, caso existam, aplicando uma ligeira pressão sobre o local, com um pano, gaze ou compressa limpa.</p></li><br>
+                </ol> <br>
+
+            </div>
+
+            <div class="convulsao" id="convulsao">
+
+                <h1>Convulsão:</h1></b>
+                <ol>
+                    <li><p>1-Deite a pessoa no chão, para evitar uma queda durante a crise convulsiva;</p></li><br>
+                    <li><p>2-Coloque-a deitada de lado, para evitar que engasgue com a própria língua ou com vômito;</p></li><br>
+                    <li><p>3-Dê espaço para a pessoa, afastando objetos que estejam próximos e que possam causar lesões, como mesas ou cadeiras;</p></li><br>
+                    <li><p>4-Desaperte roupas apertadas, especialmente na região do pescoço, como camisas e gravatas;</p></li><br>
+                </ol> <br>
+
+            </div>
+
+            <div class="glicemia-e-pressao" id="glicemia-e-pressao">
+                <h1>Glicemia e Pressão:</h1> <br>
+                <h3>Glicemia Baixa:</h3> <br>
+                <ol>
+                    <li><p>1-Dê algo doce para pessoa comer, como 1 colher de sopa cheia ou 2 sachês de açúcar com um pão;</p></li><br>
+                    <li><p>2-Se o nível de açúcar no sangue não aumentar ou os sintomas não apresentem melhorias em 30 minutos, ofereça açúcar novamente à vítima (caso ela esteja acordada);</p></li><br>
+                    <li><p>3-Se o nível for mantido dentro de um intervalo de 30 minutos, busque ajuda médica ou leve a pessoa para o hospital.</p></li><br>
+                </ol> <br>
+                <h3>Pressão Baixa:</h3>
+                <ol>
+                    <li><p>1-Deite a pessoa, de preferência num local fresco e arejado;</p></li><br>
+                    <li><p>2-Afrouxe as roupas, especialmente em volta do pescoço;</p></li><br>
+                    <li><p>3-Levante as pernas acima da altura do coração;</p></li><br>
+                    <li><p>4-Ofereça líquidos como água, café ou suco de fruta quando a pessoa estiver recuperada, para ajudar a estabilizar a pressão.</p></li><br>
+                </ol> <br>
+
+                <h1>Glicemia alta:</h1> <br>
+
+                <div>
+                    <video src="videos-SOPS_pjt/Diabetes_ Fala confusa _ Primeiros socorros(1080P_HD).mp4" controls width="400px" class="diabetes"></video>
+                </div> <br>
+
+                <ol>
+                    <li><p>1-Uma seringa de insulina SOS, que a pessoa possa ter para situações de emergência;</p></li><br>
+                    <li><p>2-Injetar a seringa na região ao redor do umbigo ou na parte superior do braço, fazendo uma prega com os dedos, mantendo-a até ao final da injeção;</p></li><br>
+                    <li><p>3-Se, passado 15 minutos, o valor do açúcar continuar igual, deve-se chamar ajuda médico;</p></li><br>
+                    <li><p>4-Caso a vítima esteja inconsciente, mas respirando deve-se colocar na posição lateral de segurança, enquanto se aguarda a chegada da ajuda médica.</p></li><br>
+                </ol> <br>
+
+            </div>
+
+            <div class="mordidas-e-picadas" id="mordidas-e-picadas">
+                <h1>Mordidas e Picadas:</h1><br>
+                <ol>
+                    <li><p>1-Mantenha a vítima calma e deitada;</p></li><br>
+                    <li><p>2-Localize a marca da mordida e limpe o local com água e sabão;</p></li><br>
+                    <li><p>3-Cubra com um pano limpo;</p></li><br>
+                    <li><p>4-Remova anéis, pulseiras e outros objetos que possam apertar, em caso de inchaço do membro afetado;</p></li><br>
+                    <li><p>5-Evite que a vítima se movimente para não favorecer a absorção do veneno;</p></li><br>
+                    <li><p>6-Tente manter a área afetada na altura do coração ou, se possível, abaixo dele;</p></li><br>
+                    <li><p>7-Leve a vítima imediatamente ao serviço de saúde mais próximo, para receber o soro anti-ofídico;</p></li><br>
+                    <li><p>8-Se possível, leve o animal para ser identificado e para que a vítima receba o soro específico;</p></li><br>
+                </ol> <br>
+            </div>
+
+            <div class="choque-eletrico" id="choque-eletrico">
+                <h1>Choque Elétrico:</h1><br>
+                <ol>
+                    <li><p>1-Corte ou desligue a fonte de energia, mas não toque na vítima;</p></li><br>
+                    <li><p>2-Afaste a pessoa da fonte elétrica, usando materiais não condutores e secos como a madeira, o plástico, panos grossos ou borracha;</p></li><br>
+                    <li><p>3-Observe se a pessoa está consciente e respirando;</p></li><br>
+                    <li><p>4-Se estiver consciente, acalme a vítima até a chegada da equipe médica;</p></li><br>
+                    <li><p>5-Se estiver inconsciente mas respirando, deite-a de lado e coloque-a em posição lateral de segurança;</p></li><br>
+                    <li><p>6-Se estiver inconsciente e não respirando, inicie a massagem cardíaca e a respiração.</p></li><br>
+                </ol> <br>
+
+            </div>
+
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        
+    </footer>
+
+</body>
+
+</html>
